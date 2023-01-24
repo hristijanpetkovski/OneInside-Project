@@ -1,0 +1,87 @@
+.second-module {
+  max-width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  padding: 60px 0;
+
+  @media (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  .left-side {
+    width: 100%;
+    max-width: 800px;
+    @media (max-width: 960px) {
+      max-width: inherit;
+      margin-bottom: 20px;
+    } 
+
+    img {
+      width: 100%;
+
+      @media (max-width: 960px) {
+        width: 100%;
+        max-width: inherit;
+      }
+    }
+  }
+  .right-side {
+    width: 100%;
+    max-width: 550px;
+    align-self: center;
+    padding-left: 4rem;
+
+    @media (max-width: 960px) {
+      padding-left: 0;
+      max-width: inherit;
+    }
+
+    .title {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 2px;
+      font-family: "Akkurat Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 110%;
+      color: #1a1a1a;
+    }
+    .bordered-title {
+      border-bottom: 4px solid #6c4d71;
+      width: fit-content;
+      margin: 0;
+      padding: 0;
+      font-family: "Akkurat Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 38px;
+      line-height: 110%;
+      color: #1a1a1a;
+    }
+
+    .description {
+      width: 100%;
+      max-width: 510px;
+      font-family: "Rotis Sans Serif Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 140%;
+      color: #4d4d4d;
+
+      @media (max-width: 960px) {
+         max-width: inherit;
+      } 
+    }
+  }
+  .button-conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 200px;
+  }
+}

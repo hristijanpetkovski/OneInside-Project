@@ -1,0 +1,135 @@
+.collapse-component {
+  background: #004064;
+  padding: 4rem 2rem;
+
+  @media (max-width: 960px) {
+    padding: 1rem;
+  } 
+  .collapse-title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Akkurat Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+  .bordered-title {
+    border-bottom: 2px solid white;
+    width: fit-content;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Akkurat Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+    color: #FFFFFF;
+  }
+
+  .content {
+    max-width: 1250px;
+    margin: 0 auto;
+
+    .container {
+      display: flex;
+      flex-direction: row;
+
+      @media (max-width: 960px) {
+        display: block;
+      } 
+      .item-container {
+        width: 100%;
+        max-width: 600px;
+        padding-top: 2rem;
+        @media (max-width: 960px) {
+          width: 100%;
+          max-width: inherit;
+        }
+
+        .item-collapse-active {
+          display: flex;
+          justify-content: space-between;
+          background: rgba(255, 255, 255, 0.2);
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+          border-radius: 4px;
+          margin-bottom: 5px;
+          display: flex;
+          align-items: center;
+          padding: 0rem 2rem;
+          color: #ffff;
+        }
+
+        .item-collapse {
+          display: flex;
+          justify-content: space-between;
+          background: rgba(255, 255, 255, 0.5);
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 4px;
+          margin-bottom: 5px;
+          display: flex;
+          align-items: center;
+          padding: 0rem 2rem;
+        }
+      }
+
+      .content-container {
+        width: 100%;
+        max-width: 600px;
+        color: white;
+        padding-left: 3rem;
+
+
+      @media (max-width: 960px) {
+        padding: 0;
+        max-width: inherit;
+      } 
+
+        .btn {
+          margin-top: 15px;
+          border: 2px solid #ffffff;
+          background: transparent;
+          border-radius: 5px;
+          color: #ffffff;
+          padding: 15px 25px;
+          font-size: 18px;
+          font-family: "Akkurat Pro";
+          font-weight: 400;
+        }
+
+        .content-title {
+          font-family: "Akkurat Pro";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 130%;
+          color: #ffffff;
+        }
+
+        .content-description {
+          font-family: "Rotis Sans Serif Pro";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 22px;
+          line-height: 135%;
+          color: #ffffff;
+        }
+
+        ul {
+          li {
+            font-family: "Rotis Sans Serif Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 135%;
+            color: #ffffff;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+
+
+
+.third-module {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 60px;
+
+
+    @media (max-width: 960px) {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+      } 
+
+    .left-side {
+        width: 100%;
+        max-width: 450px;
+        width: 100%;
+        align-self: center;
+        padding: 0 3rem;
+
+        @media (max-width: 960px) {
+            padding: 0;
+            order: 2;
+            max-width: inherit;
+            margin-top: 2rem;
+          } 
+    
+
+        .title {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 2px;
+            font-family: "Akkurat Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 110%;
+            color: #1a1a1a;
+        }
+        .bordered-title {
+            border-bottom: 4px solid #6C4D71;
+            width: fit-content;
+            margin: 0;
+            padding: 0;
+            font-family: "Akkurat Pro";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 38px;
+            line-height: 110%;
+            color: #1a1a1a;
+        }
+
+        .description {
+            width: 100%;
+            max-width: 510px;
+            font-family: 'Rotis Sans Serif Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 140%;
+            color: #4D4D4D;
+
+            @media (max-width: 960px) {
+              max-width: inherit;
+              } 
+        
+             
+        }
+        .button-conatiner {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            max-width: 200px;
+        }
+    }
+    .right-side {
+        width: 100%;
+        max-width: 580px;
+
+        @media (max-width: 960px) {
+            padding: 0;
+            order: 1;
+            max-width: inherit;
+          } 
+
+        img {
+            width: 100%;
+        }
+    }
+}

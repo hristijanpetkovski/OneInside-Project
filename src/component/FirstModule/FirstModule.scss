@@ -1,0 +1,31 @@
+.first-modlue {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 4rem;
+
+  @media (max-width: 960px) {
+    padding: 1rem;
+  }
+  .first-module-title {
+    border-bottom: 4px solid #0069a3;
+    width: fit-content;
+    font-family: "Akkurat Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 110%;
+
+    color: #1a1a1a;
+  }
+
+  .first-module-desctiption {
+    width: 100%;
+    max-width: 800px;
+    font-family: "Rotis Sans Serif Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 130%;
+    color: #4d4d4d;
+  }
+}
